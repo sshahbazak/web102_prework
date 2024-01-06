@@ -21,6 +21,9 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -63,6 +66,7 @@ body {
 }
 
 #button-container {
+    align-items: center;
     text-align: center;
 }
 
@@ -73,3 +77,19 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    display: float;
+    align-items: right;
+  }
+
+  input{
+    font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+  }
